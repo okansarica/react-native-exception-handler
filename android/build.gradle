@@ -23,6 +23,7 @@ def getExtValue(rootProject,key,defaultValue ) {
 }
 
 android {
+    namespace "com.masteratul.exceptionhandler"
     compileSdkVersion getExtValue(rootProject,'compileSdkVersion',23)
     buildToolsVersion getExtValue(rootProject,'buildToolsVersion', "23.0.1")
 
